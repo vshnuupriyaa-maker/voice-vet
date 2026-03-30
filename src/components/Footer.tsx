@@ -9,14 +9,14 @@ const Footer = () => {
             <Shield className="w-4 h-4 text-primary" />
           </div>
           <span className="font-semibold text-foreground">
-            Vox<span className="text-primary">Guard</span>
+            Deep<span className="text-primary">Shield</span>
           </span>
         </div>
         <p className="text-sm text-muted-foreground">
           AI-Powered Deepfake Voice Detection · Digital Forensics
         </p>
         <p className="text-xs text-muted-foreground">
-          © 2026 VoxGuard. All rights reserved.
+          © 2026 DeepShield. All rights reserved.
         </p>
       </div>
     </footer>
