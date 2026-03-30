@@ -9,7 +9,7 @@ const Footer = () => {
             <Shield className="w-4 h-4 text-primary" />
           </div>
           <span className="font-semibold text-foreground">
-            Vox<span className="text-primary">Guard</span>
+            Deep<span className="text-primary">Shield</span>
           </span>
         </div>
         <p className="text-sm text-muted-foreground">
