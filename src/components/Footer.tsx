@@ -16,7 +16,7 @@ const Footer = () => {
           AI-Powered Deepfake Voice Detection · Digital Forensics
         </p>
         <p className="text-xs text-muted-foreground">
-          © 2026 VoxGuard. All rights reserved.
+          © 2026 DeepShield. All rights reserved.
         </p>
       </div>
     </footer>
