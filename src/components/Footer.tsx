@@ -1,13 +1,11 @@
-import { Shield } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
     <footer className="border-t border-border/50 py-12 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center">
-            <Shield className="w-4 h-4 text-primary" />
-          </div>
+          <img src={logo} alt="DeepShield AI" className="w-8 h-8 rounded-lg" />
           <span className="font-semibold text-foreground">
             Deep<span className="text-primary">Shield</span>
           </span>
