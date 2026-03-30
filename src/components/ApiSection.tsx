@@ -86,7 +86,7 @@ const ApiSection = () => {
                 onClick={() => handleCopy(codeExample, "req")}
                 className="h-7 px-2 text-xs"
               >
-                {copiedReq ? <Check className="w-3 h-3 text-green-400" /> : <Copy className="w-3 h-3" />}
+                {copiedReq ? <Check className="w-3 h-3 text-primary" /> : <Copy className="w-3 h-3" />}
                 {copiedReq ? "Copied" : "Copy"}
               </Button>
             </div>
